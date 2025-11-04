@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CareSync | Smarter Practice Management for Doctors</title>
+    <meta
+      name="description"
+      content="CareSync helps modern medical practices streamline scheduling, engage patients, and collaborate securely."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="logo" aria-label="CareSync home">
+          <span class="logo-mark">C</span>
+          <span class="logo-text">CareSync</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul id="site-nav">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#workflow">Workflow</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="cta-ghost" href="#contact">Request Demo</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <div class="eyebrow">Built for modern practices</div>
+            <h1>Deliver exceptional care with a connected practice.</h1>
+            <p>
+              CareSync unifies scheduling, patient engagement, and clinical
+              collaboration so your team can focus on what matters most:
+              delivering outstanding outcomes.
+            </p>
+            <div class="hero-actions">
+              <a class="cta-primary" href="#contact">Book a walkthrough</a>
+              <a class="cta-secondary" href="#features">Explore features</a>
+            </div>
+            <dl class="hero-metrics">
+              <div>
+                <dt>35%</dt>
+                <dd>Faster appointment workflows</dd>
+              </div>
+              <div>
+                <dt>2.5x</dt>
+                <dd>Increase in patient engagement</dd>
+              </div>
+              <div>
+                <dt>HIPAA</dt>
+                <dd>Secure and compliant by design</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero-card" role="presentation">
+            <div class="card-header">
+              <span>Today's Schedule</span>
+              <span class="card-tag">Live sync</span>
+            </div>
+            <ul class="schedule-list">
+              <li>
+                <div>
+                  <p class="slot-time">08:30</p>
+                  <p class="slot-name">Telehealth check-in</p>
+                  <p class="slot-meta">Dr. Patel · 20 min</p>
+                </div>
+                <span class="status status-ready">Ready</span>
+              </li>
+              <li>
+                <div>
+                  <p class="slot-time">09:15</p>
+                  <p class="slot-name">Post-op follow-up</p>
+                  <p class="slot-meta">Dr. Nguyen · 40 min</p>
+                </div>
+                <span class="status status-in-progress">In room</span>
+              </li>
+              <li>
+                <div>
+                  <p class="slot-time">10:20</p>
+                  <p class="slot-name">New patient intake</p>
+                  <p class="slot-meta">Dr. Collins · 60 min</p>
+                </div>
+                <span class="status status-waiting">Arrived</span>
+              </li>
+              <li>
+                <div>
+                  <p class="slot-time">11:45</p>
+                  <p class="slot-name">Cardiology consult</p>
+                  <p class="slot-meta">Dr. Singh · 30 min</p>
+                </div>
+                <span class="status status-virtual">Virtual</span>
+              </li>
+            </ul>
+            <div class="card-footer">
+              <p class="card-footnote">
+                Smart triage auto-prioritizes urgent cases and syncs with your
+                EHR.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container section-header">
+          <h2>Everything your practice needs to move faster.</h2>
+          <p>
+            An integrated command center that adapts to your specialty and keeps
+            teams aligned across every step of the patient journey.
+          </p>
+        </div>
+        <div class="container feature-grid">
+          <article class="feature-card">
+            <div class="icon">
+              <span aria-hidden="true">📅</span>
+            </div>
+            <h3>Adaptive Scheduling</h3>
+            <p>
+              Automate intake, match patients to the right care team, and reduce
+              no-shows with smart reminders.
+            </p>
+            <ul>
+              <li>Waitlist automation</li>
+              <li>Real-time provider availability</li>
+              <li>Telehealth slots built-in</li>
+            </ul>
+          </article>
+          <article class="feature-card">
+            <div class="icon">
+              <span aria-hidden="true">🔒</span>
+            </div>
+            <h3>Secure Collaboration</h3>
+            <p>
+              HIPAA-compliant messaging, shared notes, and instant updates keep
+              your care teams on the same page.
+            </p>
+            <ul>
+              <li>Role-based permissions</li>
+              <li>E-prescribing integrations</li>
+              <li>Consent tracking</li>
+            </ul>
+          </article>
+          <article class="feature-card">
+            <div class="icon">
+              <span aria-hidden="true">📊</span>
+            </div>
+            <h3>Actionable Insights</h3>
+            <p>
+              Monitor operational performance with live dashboards and predictive
+              analytics tuned for medical practice KPIs.
+            </p>
+            <ul>
+              <li>Revenue cycle intelligence</li>
+              <li>Population health cohorts</li>
+              <li>Custom analytics exports</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="workflow">
+        <div class="container workflow-grid">
+          <div class="workflow-copy">
+            <h2>Streamline every touchpoint from referral to follow-up.</h2>
+            <p>
+              Configure CareSync to mirror your existing workflows or start from
+              specialty-ready templates. Automations reduce manual effort while
+              ensuring every patient receives consistent, proactive care.
+            </p>
+            <div class="workflow-steps">
+              <div>
+                <span class="step-number">01</span>
+                <p class="step-title">Unified intake</p>
+                <p class="step-description">
+                  Collect history, insurance, and consent digitally before the
+                  visit to cut down paperwork on arrival.
+                </p>
+              </div>
+              <div>
+                <span class="step-number">02</span>
+                <p class="step-title">Care coordination</p>
+                <p class="step-description">
+                  Assign tasks, track labs, and collaborate securely across
+                  departments with real-time updates.
+                </p>
+              </div>
+              <div>
+                <span class="step-number">03</span>
+                <p class="step-title">Continuous engagement</p>
+                <p class="step-description">
+                  Deliver personalized after-visit plans and automate outreach to
+                  maintain adherence and satisfaction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="workflow-visual">
+            <div class="workflow-panel">
+              <header>
+                <h3>Care team overview</h3>
+                <span class="badge">Live</span>
+              </header>
+              <ul>
+                <li>
+                  <div>
+                    <strong>Vitals update</strong>
+                    <span>Patient portal</span>
+                  </div>
+                  <span class="badge badge-teal">New</span>
+                </li>
+                <li>
+                  <div>
+                    <strong>Medication review</strong>
+                    <span>Assigned · RN Evans</span>
+                  </div>
+                  <span class="badge badge-neutral">Due today</span>
+                </li>
+                <li>
+                  <div>
+                    <strong>Cardio follow-up</strong>
+                    <span>Dr. Singh · 2 tasks</span>
+                  </div>
+                  <span class="badge badge-outline">Tracking</span>
+                </li>
+              </ul>
+              <footer>
+                <button type="button">View patient timeline</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials">
+        <div class="container section-header">
+          <h2>Loved by physician-led practices.</h2>
+          <p>
+            Clinical leaders rely on CareSync to keep admins efficient, doctors
+            informed, and patients delighted.
+          </p>
+        </div>
+        <div class="container testimonials-grid">
+          <figure>
+            <blockquote>
+              “CareSync gives our physicians a live command center. We reduced
+              time-to-note completion by 42% while boosting patient reviews.”
+            </blockquote>
+            <figcaption>
+              <p>Dr. Alisha Khan</p>
+              <span>Medical Director, Aurora Health</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <blockquote>
+              “The automations are game-changing. Front desk productivity is up,
+              and our staff can focus on high-touch patient interactions.”
+            </blockquote>
+            <figcaption>
+              <p>Maria Sanchez</p>
+              <span>Practice Manager, Horizon Cardiology</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <blockquote>
+              “Getting started took days, not weeks. The teal interface is clean,
+              intuitive, and loved by providers and patients alike.”
+            </blockquote>
+            <figcaption>
+              <p>Dr. Samuel Porter</p>
+              <span>Chief of Staff, Summit Family Care</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="cta-banner">
+        <div class="container cta-inner">
+          <div>
+            <h2>Ready to transform your practice?</h2>
+            <p>
+              Schedule a personalized demo to see how CareSync adapts to your
+              workflows and integrates with your existing systems.
+            </p>
+          </div>
+          <a class="cta-primary" href="#contact">Schedule demo</a>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <h2>Let's connect.</h2>
+            <p>
+              Tell us about your practice and we will tailor a walkthrough for
+              your physicians, administrators, and clinical teams.
+            </p>
+            <div class="contact-info">
+              <p><strong>Email:</strong> hello@caresynchealth.com</p>
+              <p><strong>Phone:</strong> (800) 555-0128</p>
+              <p><strong>Headquarters:</strong> Austin, TX</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <label>
+              Practice name
+              <input type="text" name="practice" placeholder="Summit Medical Group" required />
+            </label>
+            <label>
+              Work email
+              <input
+                type="email"
+                name="email"
+                placeholder="you@practice.com"
+                required
+              />
+            </label>
+            <label>
+              Role
+              <select name="role" required>
+                <option value="">Select role</option>
+                <option value="physician">Physician</option>
+                <option value="administrator">Practice administrator</option>
+                <option value="clinical">Clinical staff</option>
+                <option value="operations">Operations</option>
+              </select>
+            </label>
+            <label>
+              What goals are you focusing on?
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Share the outcomes you are targeting..."
+              ></textarea>
+            </label>
+            <button type="submit">Request a discovery call</button>
+            <p class="form-footnote">
+              By submitting, you agree to our privacy policy and consent to be
+              contacted about CareSync products.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="logo-mark">C</span>
+          <span class="logo-text">CareSync</span>
+        </div>
+        <nav aria-label="Footer navigation">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#workflow">Workflow</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">
+          © <span id="year"></span> CareSync Health. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
